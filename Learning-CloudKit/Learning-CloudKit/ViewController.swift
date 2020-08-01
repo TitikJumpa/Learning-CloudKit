@@ -12,7 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        CloudKitHelper.save() { (result) in
+            switch result {
+            case .success(let newItem):
+                
+                print("Successfully added item")
+            case .failure(let err):
+                print(err.localizedDescription)
+            }
+        }
     }
 
 

@@ -14,6 +14,8 @@
 		608FF39724D5DD17008FCDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608FF39624D5DD17008FCDC5 /* Assets.xcassets */; };
 		608FF39A24D5DD17008FCDC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608FF39824D5DD17008FCDC5 /* LaunchScreen.storyboard */; };
 		608FF3A424D5DD3C008FCDC5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608FF3A324D5DD3C008FCDC5 /* CloudKit.framework */; };
+		608FF3A624D5DE46008FCDC5 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608FF3A524D5DE46008FCDC5 /* CloudKitHelper.swift */; };
+		608FF3A824D5DF08008FCDC5 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608FF3A724D5DF08008FCDC5 /* Stories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		608FF39B24D5DD17008FCDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		608FF3A124D5DD34008FCDC5 /* Learning-CloudKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Learning-CloudKit.entitlements"; sourceTree = "<group>"; };
 		608FF3A324D5DD3C008FCDC5 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		608FF3A524D5DE46008FCDC5 /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		608FF3A724D5DF08008FCDC5 /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				608FF39624D5DD17008FCDC5 /* Assets.xcassets */,
 				608FF39824D5DD17008FCDC5 /* LaunchScreen.storyboard */,
 				608FF39B24D5DD17008FCDC5 /* Info.plist */,
+				608FF3A524D5DE46008FCDC5 /* CloudKitHelper.swift */,
+				608FF3A724D5DF08008FCDC5 /* Stories.swift */,
 			);
 			path = "Learning-CloudKit";
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			files = (
 				608FF39224D5DD16008FCDC5 /* ViewController.swift in Sources */,
 				608FF38E24D5DD16008FCDC5 /* AppDelegate.swift in Sources */,
+				608FF3A624D5DE46008FCDC5 /* CloudKitHelper.swift in Sources */,
+				608FF3A824D5DF08008FCDC5 /* Stories.swift in Sources */,
 				608FF39024D5DD16008FCDC5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
